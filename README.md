@@ -54,7 +54,7 @@ export MAPBOX_WRITE_SCOPE_ACCESS_TOKEN=<your mapbox write scope access token>
 # create directory to store data
 mkdir data
 
-# dowload Census boundaries data, unzip the data, and convert it to GeoJSON
+# download Census boundaries data, unzip the data, and convert it to GeoJSON
 wget -P data ftp://ftp2.census.gov/geo/tiger/TIGER2016/CD/tl_2016_us_cd115.zip
 unzip data/tl_2016_us_cd115.zip -d ./data/
 ogr2ogr -f GeoJSON -t_srs crs:84 data/congressional_districts.geojson data/tl_2016_us_cd115.zip
@@ -88,6 +88,6 @@ See the click handler for an example of how to use the Mapbox API to get the con
 
 #### Examples:
 
-To show districts in the state of Virginia: http://www.aarondennis.org/congress-maps/example/#state=VA
+To show districts in the state of Virginia: http://www.laurenancona.com/ahca-district-maps/example/#state=VA
 
-To show the 5th district of California: http://www.aarondennis.org/congress-maps/example/#state=CA&district=05
+To show the 5th district of California: http://www.laurenancona.com/ahca-district-maps/example/#state=CA&district=05
