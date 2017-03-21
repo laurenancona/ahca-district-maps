@@ -36,8 +36,8 @@ make install
 Download this repository and then use `npm` to install a few more dependencies:
 
 ```
-git clone https://github.com/aaronpdennis/congress-maps.git
-cd congress-maps
+git clone https://github.com/laurenancona/ahca-distric-maps.git
+cd ahca-district-maps
 npm install
 ```
 
