@@ -57,7 +57,7 @@ mkdir data
 # download Census boundaries data, unzip the data, and convert it to GeoJSON
 wget -P data ftp://ftp2.census.gov/geo/tiger/TIGER2016/CD/tl_2016_us_cd115.zip
 unzip data/tl_2016_us_cd115.zip -d ./data/
-ogr2ogr -f GeoJSON -t_srs crs:84 data/congressional_districts.geojson data/tl_2016_us_cd115.zip
+ogr2ogr -f GeoJSON -t_srs crs:84 data/congressional_districts.geojson data/tl_2016_us_cd115.shp
 
 # run processing on data
 node process.js data/congressional_districts.geojson
