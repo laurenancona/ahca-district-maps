@@ -6,6 +6,14 @@
 
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-W6WFRN');</script>
+		<!-- End Google Tag Manager -->
+
     <!-- jQuery -->
     <script   src="http://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
 
@@ -42,8 +50,14 @@
         .selector { display: inline-block; float: left; margin: 4px; }
 
     </style>
+
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6WFRN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Map Container -->
 <div id='map'></div>
@@ -76,8 +90,8 @@ var accessToken = 'pk.eyJ1IjoibGF1cmVuYW5jb25hIiwiYSI6ImNqMGs1Z2Q2cDAwMjEzM29ra2
 
 //** MODIFY THIS SECTION
 // Specify YOUR uploaded Mapbox Studio style URL
-var styleURL = 'mapbox://styles/laurenancona/cj0lg920q003h2sppozcpvo9w';
-var mapId = 'laurenancona.cd-115-2016'; // used by the click handler only
+var styleURL = 'mapbox://styles/laurenancona/cj0k5jvt1001a2smtx99ugydp';
+var mapId = 'laurenancona.cd-114-2015'; // used by the click handler only
 
 
 // Use GeoViewport and the window size to determine and appropriate center and zoom for the continental US
@@ -148,6 +162,9 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
       zoom: continental.zoom
   });
 
+	var maxValue = 232046;
+	var data = $.getJSON("data/aca-repeal.json")
+
   // Once map is fully loaded...
   map.on('load', function() {
 
@@ -215,7 +232,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
 
       // Determine the best center and zoom level for the new map focus and then go there
       var view = geoViewport.viewport(bboxes[stateAbbr + districtAbbr], [width/2, height/2]);
-      map.flyTo(view);
+      map.jumpTo(view);
 
     }
 
@@ -281,8 +298,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         var features = map.queryRenderedFeatures(
           e.point,
           {
-            // layers: ["districts_1", "districts_2", "districts_3", "districts_4", "districts_5"]
-            layers: ["districts_1", "districts_2"]
+            layers: ["districts_1", "districts_2", "districts_3", "districts_4", "districts_5"]
           });
         if (features.length > 0)
           // The feature properties come from the original GeoJSON uploaded to Mapbox.
@@ -320,7 +336,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         // number (00 for at-large districts). title_long and title_short
         // have strings useful for display (e.g. "VA 8" and "Virginia’s 8th
         // Congressional District", respectively).
-        alert("That's " + district.state + "-" + district.number); // + ", i.e." + district.title_long + ".");
+        alert("That's " + district.state + "-" + district.number + ", i.e." + district.title_long + ".");
 
       } else {
         alert("You clicked on a location that is not within a U.S. congressional district.")
