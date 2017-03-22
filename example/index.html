@@ -6,6 +6,14 @@
 
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-W6WFRN');</script>
+		<!-- End Google Tag Manager -->
+
     <!-- jQuery -->
     <script   src="http://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
 
@@ -42,8 +50,14 @@
         .selector { display: inline-block; float: left; margin: 4px; }
 
     </style>
+
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6WFRN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- Map Container -->
 <div id='map'></div>
@@ -72,12 +86,12 @@
 
 //** MODIFY THIS SECTION
 // Specify YOUR Mapbox default access token
-var accessToken = 'pk.eyJ1IjoiYWFyb25kZW5uaXMiLCJhIjoiem5LLURoYyJ9.T3tswGTI5ve8_wE-a02cMw';
+var accessToken = 'pk.eyJ1IjoibGF1cmVuYW5jb25hIiwiYSI6ImNqMGs1Z2Q2cDAwMjEzM29ra20xc2RyMG8ifQ.p6yR1jZaOKqOKfpvf0RRHw';
 
 //** MODIFY THIS SECTION
 // Specify YOUR uploaded Mapbox Studio style URL
-var styleURL = 'mapbox://styles/aarondennis/cioafmhk70047adnmt3gz2kd0';
-var mapId = 'aarondennis.cd-114-2015'; // used by the click handler only
+var styleURL = 'mapbox://styles/laurenancona/cj0k5jvt1001a2smtx99ugydp';
+var mapId = 'laurenancona.cd-114-2015'; // used by the click handler only
 
 
 // Use GeoViewport and the window size to determine and appropriate center and zoom for the continental US
@@ -147,6 +161,9 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
       center: continental.center,
       zoom: continental.zoom
   });
+
+	var maxValue = 232046;
+	var data = $.getJSON("data/aca-repeal.json")
 
   // Once map is fully loaded...
   map.on('load', function() {
