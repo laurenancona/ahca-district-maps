@@ -90,8 +90,8 @@ var accessToken = 'pk.eyJ1IjoibGF1cmVuYW5jb25hIiwiYSI6ImNqMGs1Z2Q2cDAwMjEzM29ra2
 
 //** MODIFY THIS SECTION
 // Specify YOUR uploaded Mapbox Studio style URL
-var styleURL = 'mapbox://styles/laurenancona/cj0k5jvt1001a2smtx99ugydp';
-var mapId = 'laurenancona.cd-114-2015'; // used by the click handler only
+var styleURL = 'mapbox://styles/laurenancona/cj0lg920q003h2sppozcpvo9w';
+var mapId = 'laurenancona.cd-115-2016'; // used by the click handler only
 
 
 // Use GeoViewport and the window size to determine and appropriate center and zoom for the continental US
@@ -161,9 +161,6 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
       center: continental.center,
       zoom: continental.zoom
   });
-
-	var maxValue = 232046;
-	var data = $.getJSON("data/aca-repeal.json")
 
   // Once map is fully loaded...
   map.on('load', function() {
