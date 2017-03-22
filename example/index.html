@@ -281,7 +281,8 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         var features = map.queryRenderedFeatures(
           e.point,
           {
-            layers: ["districts_1", "districts_2", "districts_3", "districts_4", "districts_5"]
+            // layers: ["districts_1", "districts_2", "districts_3", "districts_4", "districts_5"]
+            layers: ["districts_1", "districts_2"]
           });
         if (features.length > 0)
           // The feature properties come from the original GeoJSON uploaded to Mapbox.
@@ -319,7 +320,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         // number (00 for at-large districts). title_long and title_short
         // have strings useful for display (e.g. "VA 8" and "Virginia’s 8th
         // Congressional District", respectively).
-        alert("That's " + district.state + "-" + district.number + ", i.e." + district.title_long + ".");
+        alert("That's " + district.state + "-" + district.number); // + ", i.e." + district.title_long + ".");
 
       } else {
         alert("You clicked on a location that is not within a U.S. congressional district.")
