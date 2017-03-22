@@ -1,8 +1,10 @@
-# Mapping US Congressional Districts
+# Mapping AHCA Impact by US Congressional Districts
 
 Using [data]([https://cdn.americanprogress.org/content/uploads/2017/03/21115208/Table-of-CBO-coverage-loss-by-congressional-district-in-all-states-final.xlsx) published yesterday by the [Center for American Progress](https://www.americanprogress.org), I wanted to see if I could quickly map the potential effects of passing the AHCA in the House tomorrow, by Congressional District, and including metadata about each representative and the way that district voted in the 2016 presidential election. This is a very rough, quickly-done pass as visualizing how many constituents would lose coverage in each district.
 
-It leverages prior work done by Aaron Dennis and Joshua Tauberer for Sunlight Foundation.
+This map leverages prior work done by [Aaron Dennis](https://github.com/aaronpdennis/congress-maps) and [Joshua Tauberer](https://github.com/JoshData) for Sunlight Foundation.
+
+Other data courtesy [Charles Gaba](http://acasignups.net/17/03/22/how-many-would-lose-coverage-clean-repeal-vs-trumpcare), [The Kaiser Family Foundation](http://kff.org/), [Brandon Smith](https://github.com/BSmith114/presidential-vote-by-county/), and [The Center for American Progress](https://www.americanprogress.org/issues/healthcare/news/2017/03/21/428914/coverage-losses-aca-repeal-bill-congressional-districts-states/).
 
 
 ### Generating Congressional Districts from Census Data
