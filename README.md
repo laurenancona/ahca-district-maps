@@ -1,6 +1,6 @@
 # Mapping US Congressional Districts
 
-Using (data)[https://cdn.americanprogress.org/content/uploads/2017/03/21115208/Table-of-CBO-coverage-loss-by-congressional-district-in-all-states-final.xlsx] published yesterday by the [Center for American Progress)[https://www.americanprogress.org], I wanted to see if I could quickly map the potential effects of passing the AHCA in the House tomorrow, by Congressional District, and including metadata about each representative and the way that district voted in the 2016 presidential election. This is a very rough, quickly-done pass as visualizing how many constituents would lose coverage in each district.
+Using [data]([https://cdn.americanprogress.org/content/uploads/2017/03/21115208/Table-of-CBO-coverage-loss-by-congressional-district-in-all-states-final.xlsx) published yesterday by the [Center for American Progress](https://www.americanprogress.org), I wanted to see if I could quickly map the potential effects of passing the AHCA in the House tomorrow, by Congressional District, and including metadata about each representative and the way that district voted in the 2016 presidential election. This is a very rough, quickly-done pass as visualizing how many constituents would lose coverage in each district.
 
 It leverages prior work done by Aaron Dennis and Joshua Tauberer for Sunlight Foundation.
 
