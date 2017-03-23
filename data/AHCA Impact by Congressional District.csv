@@ -1,0 +1,437 @@
+geoid,State,FIPS,USPS,District,State_District,District,Representative,Total_Projected_to_Lose_Coverage,Total_Coverage_Loss_2026,Party,2016_P_Result
+0101,Alabama,01,AL,01,AL-01,01,Bradley Byrne,22611,67100,R,R
+0102,Alabama,01,AL,02,AL-02,02,Martha Roby,15952,62000,R,R
+0103,Alabama,01,AL,03,AL-03,03,Michael Rogers,16262,65000,R,R
+0104,Alabama,01,AL,04,AL-04,04,Robert Aderholt,18043,65500,R,R
+0105,Alabama,01,AL,05,AL-05,05,Morris Brooks Jr.,19669,61400,R,R
+0106,Alabama,01,AL,06,AL-06,06,Gary Palmer,18430,53100,R,R
+0107,Alabama,01,AL,07,AL-07,07,Terri Sewell,17268,70300,D,D
+0200,Alaska,02,AK,AL,AK-AL,00,Don Young,37328,44500,R,R
+0401,Arizona,04,AZ,01,AZ-01,01,Tom O'Halleran,110494,46500,D,R
+0402,Arizona,04,AZ,02,AZ-02,02,Martha McSally,41011,40100,R,D
+0403,Arizona,04,AZ,03,AZ-03,03,Raul Grijalva,80271,52400,D,D
+0404,Arizona,04,AZ,04,AZ-04,04,Paul Gosar,71468,39800,R,R
+0405,Arizona,04,AZ,05,AZ-05,05,Andy Biggs,42614,40700,R,R
+0406,Arizona,04,AZ,06,AZ-06,06,David Schweikert,42614,37700,R,R
+0407,Arizona,04,AZ,07,AZ-07,07,Ruben Gallego,42614,71300,D,D
+0408,Arizona,04,AZ,08,AZ-08,08,Trent Franks,42614,39800,R,R
+0409,Arizona,04,AZ,09,AZ-09,09,Kyrsten Sinema,42614,50700,D,D
+0501,Arkansas,05,AR,01,AR-01,01,Rick Crawford,122579,51000,R,R
+0502,Arkansas,05,AR,02,AR-02,02,French Hill,83945,45300,R,R
+0503,Arkansas,05,AR,03,AR-03,03,Steve Womack,76561,51600,R,R
+0504,Arkansas,05,AR,04,AR-04,04,Bruce Westerman,97669,48900,R,R
+0601,California,06,CA,01,CA-01,01,Doug LaMalfa,101807,45600,R,R
+0602,California,06,CA,02,CA-02,02,Jared Huffman,92343,41100,D,D
+0603,California,06,CA,03,CA-03,03,John Garamendi,85431,44500,D,D
+0604,California,06,CA,04,CA-04,04,Tom McClintock,74010,38200,R,R
+0605,California,06,CA,05,CA-05,05,Mike Thompson,84584,43500,D,D
+0606,California,06,CA,06,CA-06,06,Doris Matsui,109245,57100,D,D
+0607,California,06,CA,07,CA-07,07,Ami Bera,78040,44800,D,D
+0608,California,06,CA,08,CA-08,08,Paul Cook,106760,51900,R,R
+0609,California,06,CA,09,CA-09,09,Jerry McNerney,103654,55200,D,D
+0610,California,06,CA,10,CA-10,10,Jeff Denham,111711,51000,R,D
+0611,California,06,CA,11,CA-11,11,Mark DeSaulnier,76701,44800,D,D
+0612,California,06,CA,12,CA-12,12,Nancy Pelosi,94038,43300,D,D
+0613,California,06,CA,13,CA-13,13,Barbara Lee,95712,48400,D,D
+0614,California,06,CA,14,CA-14,14,Jackie Speier,77526,37200,D,D
+0615,California,06,CA,15,CA-15,15,Eric Swalwell,68213,44100,D,D
+0616,California,06,CA,16,CA-16,16,Jim Costa,126442,65500,D,D
+0617,California,06,CA,17,CA-17,17,Ro Khanna,65124,39000,D,D
+0618,California,06,CA,18,CA-18,18,Anna Eshoo,51502,36600,D,D
+0619,California,06,CA,19,CA-19,19,Zoe Lofgren,98757,49100,D,D
+0620,California,06,CA,20,CA-20,20,Jimmy Panetta,90536,49500,D,D
+0621,California,06,CA,21,CA-21,21,David Valadao,115255,60100,R,D
+0622,California,06,CA,22,CA-22,22,Devin Nunes,87694,55300,R,R
+0623,California,06,CA,23,CA-23,23,Kevin McCarthy,83535,51200,R,R
+0624,California,06,CA,24,CA-24,24,Salud Carbajal,78790,41700,D,D
+0625,California,06,CA,25,CA-25,25,Steve Knight,77428,46400,R,D
+0626,California,06,CA,26,CA-26,26,Julia Brownley,85622,44300,D,D
+0627,California,06,CA,27,CA-27,27,Judy Chu,107445,41400,D,D
+0628,California,06,CA,28,CA-28,28,Adam Schiff,99616,46500,D,D
+0629,California,06,CA,29,CA-29,29,Tony Cárdenas,131247,62100,D,D
+0630,California,06,CA,30,CA-30,30,Brad Sherman,84706,47500,D,D
+0631,California,06,CA,31,CA-31,31,Pete Aguilar,102553,55500,D,D
+0632,California,06,CA,32,CA-32,32,Grace Napolitano,102187,51500,D,D
+0633,California,06,CA,33,CA-33,33,Ted Lieu,45995,31900,D,D
+0634,California,06,CA,34,CA-34,34,Vacant,131083,69200,OPEN,D
+0635,California,06,CA,35,CA-35,35,Norma Torres,106730,57300,D,D
+0636,California,06,CA,36,CA-36,36,Raul Ruiz,103358,53300,D,D
+0637,California,06,CA,37,CA-37,37,Karen Bass,95825,55600,D,D
+0638,California,06,CA,38,CA-38,38,Linda Sánchez,86299,48500,D,D
+0639,California,06,CA,39,CA-39,39,Ed Royce,84259,41900,R,D
+0640,California,06,CA,40,CA-40,40,Lucille Roybal-Allard,138371,75300,D,D
+0641,California,06,CA,41,CA-41,41,Mark Takano,98357,56600,D,D
+0642,California,06,CA,42,CA-42,42,Ken Calvert,79227,45400,R,R
+0643,California,06,CA,43,CA-43,43,Maxine Waters,108018,58400,D,D
+0644,California,06,CA,44,CA-44,44,Nanette Barragan,122838,62000,D,D
+0645,California,06,CA,45,CA-45,45,Mimi Walters,64806,35600,R,D
+0646,California,06,CA,46,CA-46,46,Lou Correa,115186,61700,D,D
+0647,California,06,CA,47,CA-47,47,Alan Lowenthal,99815,51700,D,D
+0648,California,06,CA,48,CA-48,48,Dana Rohrabacher,76102,41600,R,D
+0649,California,06,CA,49,CA-49,49,Darrell Issa,63727,36400,R,D
+0650,California,06,CA,50,CA-50,50,Duncan D. Hunter,87609,45900,R,R
+0651,California,06,CA,51,CA-51,51,Juan Vargas,122683,60700,D,D
+0652,California,06,CA,52,CA-52,52,Scott Peters,54017,36000,D,D
+0653,California,06,CA,53,CA-53,53,Susan Davis,81248,44900,D,D
+0801,Colorado,08,CO,01,CO-01,01,Diana DeGette,82537,52000,D,D
+0802,Colorado,08,CO,02,CO-02,02,Jared Polis,101206,38700,D,D
+0803,Colorado,08,CO,03,CO-03,03,Scott Tipton,91871,47200,R,R
+0804,Colorado,08,CO,04,CO-04,04,Ken Buck,71238,44300,R,R
+0805,Colorado,08,CO,05,CO-05,05,Doug Lamborn,51586,37700,R,R
+0806,Colorado,08,CO,06,CO-06,06,Mike Coffman,68780,47400,R,D
+0807,Colorado,08,CO,07,CO-07,07,Ed Perlmutter,65341,44500,D,D
+0901,Connecticut,09,CT,01,CT-01,01,John B. Larson,56305,46100,D,D
+0902,Connecticut,09,CT,02,CT-02,02,Joe Courtney,56305,39800,D,D
+0903,Connecticut,09,CT,03,CT-03,03,Rosa DeLauro,56305,42900,D,D
+0904,Connecticut,09,CT,04,CT-04,04,Jim Himes,56805,46800,D,D
+0905,Connecticut,09,CT,05,CT-05,05,Elizabeth Esty,56306,44700,D,D
+1000,Delaware,10,DE,AL,DE-AL,00,Lisa Blunt Rochester,28160,62200,D,D
+1100,District of Columbia,11,DC,AL,DC-AL,00,Eleanor Holmes Norton,16000,48600,D,D
+1201,Florida,12,FL,01,FL-01,01,Matt Gaetz,26336,56000,R,R
+1202,Florida,12,FL,02,FL-02,02,Neal Dunn,24897,63900,R,R
+1203,Florida,12,FL,03,FL-03,03,Ted Yoho,28030,64200,R,R
+1204,Florida,12,FL,04,FL-04,04,John Rutherford,32772,62400,R,R
+1205,Florida,12,FL,05,FL-05,05,Al Lawson,42341,67400,D,D
+1206,Florida,12,FL,06,FL-06,06,Ron DeSantis,39039,63600,R,R
+1207,Florida,12,FL,07,FL-07,07,Stephanie Murphy,47253,65100,D,D
+1208,Florida,12,FL,08,FL-08,08,Bill Posey,37006,57900,R,R
+1209,Florida,12,FL,09,FL-09,09,Darren Soto,57584,77900,D,D
+1210,Florida,12,FL,10,FL-10,10,Val Demings,44543,74400,D,D
+1211,Florida,12,FL,11,FL-11,11,Daniel Webster,34127,59500,R,R
+1212,Florida,12,FL,12,FL-12,12,Gus Bilirakis,36413,60600,R,R
+1213,Florida,12,FL,13,FL-13,13,Charlie Crist,37430,58200,D,D
+1214,Florida,12,FL,14,FL-14,14,Kathy Castor,35651,68400,D,D
+1215,Florida,12,FL,15,FL-15,15,Dennis A. Ross,32941,68100,R,R
+1216,Florida,12,FL,16,FL-16,16,Vern Buchanan,36752,58200,R,R
+1217,Florida,12,FL,17,FL-17,17,Tom Rooney,32095,61100,R,R
+1218,Florida,12,FL,18,FL-18,18,Brian Mast,50809,63300,R,R
+1219,Florida,12,FL,19,FL-19,19,Francis Rooney,42595,62400,R,R
+1220,Florida,12,FL,20,FL-20,20,Alcee Hastings,66476,67100,D,D
+1221,Florida,12,FL,21,FL-21,21,Lois Frankel,63681,62700,D,D
+1222,Florida,12,FL,22,FL-22,22,Ted Deutch,64189,68000,D,D
+1223,Florida,12,FL,23,FL-23,23,Debbie Wasserman Schultz,74097,70400,D,D
+1224,Florida,12,FL,24,FL-24,24,Frederica Wilson,79686,79900,D,D
+1225,Florida,12,FL,25,FL-25,25,Mario Diaz-Balart,70540,75500,R,R
+1226,Florida,12,FL,26,FL-26,26,Carlos Curbelo,78331,78500,R,D
+1227,Florida,12,FL,27,FL-27,27,Ileana Ros-Lehtinen,81549,81300,R,D
+1301,Georgia,13,GA,01,GA-01,01,Buddy Carter,23189,62800,R,R
+1302,Georgia,13,GA,02,GA-02,02,Sanford Bishop,16254,74600,D,D
+1303,Georgia,13,GA,03,GA-03,03,Drew Ferguson,20877,60100,R,R
+1304,Georgia,13,GA,04,GA-04,04,Hank Johnson,33013,74600,D,D
+1305,Georgia,13,GA,05,GA-05,05,John Lewis,29474,78700,D,D
+1306,Georgia,13,GA,06,GA-06,06,Tom Price,29329,57200,R,R
+1307,Georgia,13,GA,07,GA-07,07,Rob Woodall,38720,67500,R,R
+1308,Georgia,13,GA,08,GA-08,08,Austin Scott,15098,69100,R,R
+1309,Georgia,13,GA,09,GA-09,09,Doug Collins,21889,68800,R,R
+1310,Georgia,13,GA,10,GA-10,10,Jody Hice,21094,61500,R,R
+1311,Georgia,13,GA,11,GA-11,11,Barry Loudermilk,27740,67200,R,R
+1312,Georgia,13,GA,12,GA-12,12,Rick Allen,20299,72100,R,R
+1313,Georgia,13,GA,13,GA-13,13,David Scott,29979,74300,D,D
+1314,Georgia,13,GA,14,GA-14,14,Tom Graves,18421,72100,R,R
+1501,Hawaii,15,HI,01,HI-01,01,Colleen Hanabusa,18565,36100,D,D
+1502,Hawaii,15,HI,02,HI-02,02,Tulsi Gabbard,28918,46300,D,D
+1601,Idaho,16,ID,01,ID-01,01,Raul Labrador,36521,67400,R,R
+1602,Idaho,16,ID,02,ID-02,02,Mike Simpson,36444,67200,R,R
+1701,Illinois,17,IL,01,IL-01,01,Bobby Rush,47886,46400,D,D
+1702,Illinois,17,IL,02,IL-02,02,Robin Kelly,53457,48000,D,D
+1703,Illinois,17,IL,03,IL-03,03,Dan Lipinski,52396,44100,D,D
+1704,Illinois,17,IL,04,IL-04,04,Luis Gutiérrez,44372,58400,D,D
+1705,Illinois,17,IL,05,IL-05,05,Mike Quigley,49175,39100,D,D
+1706,Illinois,17,IL,06,IL-06,06,Peter Roskam,60725,34000,R,D
+1707,Illinois,17,IL,07,IL-07,07,Danny K. Davis,44372,51500,D,D
+1708,Illinois,17,IL,08,IL-08,08,Raja Krishnamoorthi,53672,43100,D,D
+1709,Illinois,17,IL,09,IL-09,09,Jan Schakowsky,44372,38300,D,D
+1710,Illinois,17,IL,10,IL-10,10,Brad Schneider,47331,37800,D,D
+1711,Illinois,17,IL,11,IL-11,11,Bill Foster,57996,43100,D,D
+1712,Illinois,17,IL,12,IL-12,12,Mike Bost,49932,41100,R,R
+1713,Illinois,17,IL,13,IL-13,13,Rodney L. Davis,43621,39300,R,R
+1714,Illinois,17,IL,14,IL-14,14,Randy Hultgren,36301,37500,R,R
+1715,Illinois,17,IL,15,IL-15,15,John Shimkus,48466,39500,R,R
+1716,Illinois,17,IL,16,IL-16,16,Adam Kinzinger,60400,37800,R,R
+1717,Illinois,17,IL,17,IL-17,17,Cheri Bustos,52484,43700,D,R
+1718,Illinois,17,IL,18,IL-18,18,Darin LaHood,41509,34700,R,R
+1801,Indiana,18,IN,01,IN-01,01,Pete Visclosky,55859,39900,D,D
+1802,Indiana,18,IN,02,IN-02,02,Jackie Walorski,60328,41900,R,R
+1803,Indiana,18,IN,03,IN-03,03,Jim Banks,56498,40500,R,R
+1804,Indiana,18,IN,04,IN-04,04,Todd Rokita,56817,37900,R,R
+1805,Indiana,18,IN,05,IN-05,05,Susan Brooks,70543,37700,R,R
+1806,Indiana,18,IN,06,IN-06,06,Luke Messer,53944,39800,R,R
+1807,Indiana,18,IN,07,IN-07,07,André Carson,65116,52500,D,D
+1808,Indiana,18,IN,08,IN-08,08,Larry Bucshon,59690,37800,R,R
+1809,Indiana,18,IN,09,IN-09,09,Trey Hollingsworth,60009,37500,R,R
+1901,Iowa,19,IA,01,IA-01,01,Rod Blum,44991,41000,R,R
+1902,Iowa,19,IA,02,IA-02,02,David Loebsack,45369,43800,D,R
+1903,Iowa,19,IA,03,IA-03,03,David Young,51795,45400,R,R
+1904,Iowa,19,IA,04,IA-04,04,Steve King,43100,40900,R,R
+2001,Kansas,20,KS,01,KS-01,01,Roger Marshall ,14127,50000,R,R
+2002,Kansas,20,KS,02,KS-02,02,Lynn Jenkins ,15225,54600,R,R
+2003,Kansas,20,KS,03,KS-03,03,Kevin Yoder ,21008,53700,R,D
+2004,Kansas,20,KS,04,KS-04,04,Vacant,15152,57600,OPEN,R
+2101,Kentucky,21,KY,01,KY-01,01,James Comer ,80079,47300,R,R
+2102,Kentucky,21,KY,02,KY-02,02,Brett Guthrie ,76019,44000,R,R
+2103,Kentucky,21,KY,03,KY-03,03,John Yarmuth ,43385,47200,D,D
+2104,Kentucky,21,KY,04,KY-04,04,Thomas Massie ,97618,42700,R,R
+2105,Kentucky,21,KY,05,KY-05,05,Hal Rogers ,114460,54000,R,R
+2106,Kentucky,21,KY,06,KY-06,06,Andy Barr ,75660,48800,R,R
+2201,Louisiana,22,LA,01,LA-01,01,Steve Scalise ,100333,46900,R,R
+2202,Louisiana,22,LA,02,LA-02,02,Cedric Richmond ,108624,62200,D,D
+2203,Louisiana,22,LA,03,LA-03,03,Clay Higgins ,74352,50100,R,R
+2204,Louisiana,22,LA,04,LA-04,04,Mike Johnson ,68823,49800,R,R
+2205,Louisiana,22,LA,05,LA-05,05,Ralph Abraham ,77392,51700,R,R
+2206,Louisiana,22,LA,06,LA-06,06,Garret Graves ,79879,48000,R,R
+2301,Maine,23,ME,01,ME-01,01,Chellie Pingree ,26754,48600,D,D
+2302,Maine,23,ME,02,ME-02,02,Bruce Poliquin ,29133,52500,R,R
+2401,Maryland,24,MD,01,MD-01,01,Andrew P. Harris ,54742,36600,R,R
+2402,Maryland,24,MD,02,MD-02,02,Dutch Ruppersberger ,49281,40800,D,D
+2403,Maryland,24,MD,03,MD-03,03,John Sarbanes ,58214,38100,D,D
+2404,Maryland,24,MD,04,MD-04,04,Anthony G. Brown ,40181,42400,D,D
+2405,Maryland,24,MD,05,MD-05,05,Steny Hoyer ,48838,36700,D,D
+2406,Maryland,24,MD,06,MD-06,06,John Delaney ,44094,38300,D,D
+2407,Maryland,24,MD,07,MD-07,07,Elijah Cummings ,39709,43900,D,D
+2408,Maryland,24,MD,08,MD-08,08,Jamie Raskin ,34352,36500,D,D
+2501,Massachusetts,25,MA,01,MA-01,01,Richard Neal ,38992,50900,D,D
+2502,Massachusetts,25,MA,02,MA-02,02,Jim McGovern ,38992,45500,D,D
+2503,Massachusetts,25,MA,03,MA-03,03,Niki Tsongas ,38992,51400,D,D
+2504,Massachusetts,25,MA,04,MA-04,04,Joseph Kennedy III ,38992,37900,D,D
+2505,Massachusetts,25,MA,05,MA-05,05,Katherine Clark ,38992,39200,D,D
+2506,Massachusetts,25,MA,06,MA-06,06,Seth Moulton ,38992,41900,D,D
+2507,Massachusetts,25,MA,07,MA-07,07,Mike Capuano ,38992,59300,D,D
+2508,Massachusetts,25,MA,08,MA-08,08,Stephen Lynch ,38992,42400,D,D
+2509,Massachusetts,25,MA,09,MA-09,09,William Keating ,38992,41100,D,D
+2601,Michigan,26,MI,01,MI-01,01,Jack Bergman,67467,40300,R,R
+2602,Michigan,26,MI,02,MI-02,02,Bill Huizenga,64373,43700,R,R
+2603,Michigan,26,MI,03,MI-03,03,Justin Amash,48795,43600,R,R
+2604,Michigan,26,MI,04,MI-04,04,John Moolenaar,57628,42000,R,R
+2605,Michigan,26,MI,05,MI-05,05,Dan Kildee,68362,46300,D,D
+2606,Michigan,26,MI,06,MI-06,06,Fred Upton,56161,43500,R,R
+2607,Michigan,26,MI,07,MI-07,07,Tim Walberg,56431,39500,R,R
+2608,Michigan,26,MI,08,MI-08,08,Mike Bishop,56434,38200,R,R
+2609,Michigan,26,MI,09,MI-09,09,Sander Levin,61373,43000,D,D
+2610,Michigan,26,MI,10,MI-10,10,Paul Mitchell,68478,40200,R,R
+2611,Michigan,26,MI,11,MI-11,11,David Trott,76719,34200,R,R
+2612,Michigan,26,MI,12,MI-12,12,Debbie Dingell,68462,41600,D,D
+2613,Michigan,26,MI,13,MI-13,13,John Conyers,57370,56600,D,D
+2614,Michigan,26,MI,14,MI-14,14,Brenda Lawrence,74923,51700,D,D
+2701,Minnesota,27,MN,01,MN-01,01,Tim Walz (DFL),36949,51200,D,R
+2702,Minnesota,27,MN,02,MN-02,02,Jason Lewis ,41514,50200,R,R
+2703,Minnesota,27,MN,03,MN-03,03,Erik Paulsen ,39761,49200,R,D
+2704,Minnesota,27,MN,04,MN-04,04,Betty McCollum (DFL),32291,54800,D,D
+2705,Minnesota,27,MN,05,MN-05,05,Keith Ellison (DFL),51661,58700,D,D
+2706,Minnesota,27,MN,06,MN-06,06,Tom Emmer ,50911,49600,R,R
+2707,Minnesota,27,MN,07,MN-07,07,Collin Peterson (DFL),42347,49600,D,R
+2708,Minnesota,27,MN,08,MN-08,08,Rick Nolan (DFL),39526,52200,D,R
+2801,Mississippi,28,MS,01,MS-01,01,Trent Kelly ,14198,71200,R,R
+2802,Mississippi,28,MS,02,MS-02,02,Bennie Thompson ,20093,80500,D,D
+2803,Mississippi,28,MS,03,MS-03,03,Gregg Harper ,16522,69600,R,R
+2804,Mississippi,28,MS,04,MS-04,04,Steven Palazzo ,13782,68200,R,R
+2901,Missouri,29,MO,01,MO-01,01,William Clay Jr. ,25640,69800,D,D
+2902,Missouri,29,MO,02,MO-02,02,Ann Wagner ,23532,42500,R,R
+2903,Missouri,29,MO,03,MO-03,03,Blaine Luetkemeyer ,19111,51400,R,R
+2904,Missouri,29,MO,04,MO-04,04,Vicky Hartzler ,19859,60000,R,R
+2905,Missouri,29,MO,05,MO-05,05,Emanuel Cleaver ,21899,69400,D,D
+2906,Missouri,29,MO,06,MO-06,06,Sam Graves ,19247,53600,R,R
+2907,Missouri,29,MO,07,MO-07,07,William Long ,24552,70600,R,R
+2908,Missouri,29,MO,08,MO-08,08,Jason Smith ,17547,61800,R,R
+3000,Montana,30,MT,AL,MT-AL,00,Ryan Zinke ,96317,61400,R,R
+3101,Nebraska,31,NE,01,NE-01,01,Jeff Fortenberry ,18328,49000,R,R
+3102,Nebraska,31,NE,02,NE-02,02,Don Bacon ,16907,50400,R,R
+3103,Nebraska,31,NE,03,NE-03,03,Adrian Smith ,24687,49900,R,R
+3201,Nevada,32,NV,01,NV-01,01,Dina Titus ,92594,44200,D,D
+3202,Nevada,32,NV,02,NV-02,02,Mark Amodei ,107947,37500,R,R
+3203,Nevada,32,NV,03,NV-03,03,Jacky Rosen ,92594,33500,D,R
+3204,Nevada,32,NV,04,NV-04,04,Ruben Kihuen ,89715,38300,D,D
+3301,New Hampshire,33,NH,01,NH-01,01,Carol Shea-Porter ,40049,32700,D,R
+3302,New Hampshire,33,NH,02,NH-02,02,Ann McLane Kuster ,38548,32900,D,D
+3401,New Jersey,34,NJ,01,NJ-01,01,Donald Norcross ,68094,43600,D,D
+3402,New Jersey,34,NJ,02,NJ-02,02,Frank LoBiondo ,67657,43900,R,R
+3403,New Jersey,34,NJ,03,NJ-03,03,Tom MacArthur ,52682,33700,R,R
+3404,New Jersey,34,NJ,04,NJ-04,04,Chris Smith ,51002,39100,R,R
+3405,New Jersey,34,NJ,05,NJ-05,05,Josh Gottheimer ,44624,37100,D,R
+3406,New Jersey,34,NJ,06,NJ-06,06,Frank Pallone ,56669,41900,D,D
+3407,New Jersey,34,NJ,07,NJ-07,07,Leonard Lance ,38063,35200,R,D
+3408,New Jersey,34,NJ,08,NJ-08,08,Albio Sires ,82263,58200,D,D
+3409,New Jersey,34,NJ,09,NJ-09,09,William Pascrell ,84093,49900,D,D
+3410,New Jersey,34,NJ,10,NJ-10,10,"Donald Payne, Jr. ",93125,52800,D,D
+3411,New Jersey,34,NJ,11,NJ-11,11,Rodney Frelinghuysen ,37210,33000,R,R
+3412,New Jersey,34,NJ,12,NJ-12,12,Bonnie Watson Coleman ,53137,41400,D,D
+3501,New Mexico,35,NM,01,NM-01,01,Michelle Lujan Grisham ,61953,46300,D,D
+3502,New Mexico,35,NM,02,NM-02,02,Steve Pearce ,126783,50900,R,R
+3503,New Mexico,35,NM,03,NM-03,03,Ben Ray Lujån ,102004,50400,D,D
+3601,New York,36,NY,01,NY-01,01,Lee Zeldin ,61951,71000,R,R
+3602,New York,36,NY,02,NY-02,02,Peter King ,92685,72300,R,R
+3603,New York,36,NY,03,NY-03,03,Thomas Suozzi ,169740,70500,D,D
+3604,New York,36,NY,04,NY-04,04,Kathleen Rice ,35062,72900,D,D
+3605,New York,36,NY,05,NY-05,05,Gregory Meeks ,114175,112200,D,D
+3606,New York,36,NY,06,NY-06,06,Grace Meng ,83691,107400,D,D
+3607,New York,36,NY,07,NY-07,07,Nydia Velåzquez ,232046,122400,D,D
+3608,New York,36,NY,08,NY-08,08,Hakeem Jeffries ,177996,108100,D,D
+3609,New York,36,NY,09,NY-09,09,Yvette Clarke ,101286,111100,D,D
+3610,New York,36,NY,10,NY-10,10,Jerrold Nadler ,154490,86100,D,D
+3611,New York,36,NY,11,NY-11,11,Dan Donovan ,164506,82100,R,R
+3612,New York,36,NY,12,NY-12,12,Carolyn Maloney ,231027,81200,D,D
+3613,New York,36,NY,13,NY-13,13,Adriano Espaillat ,159453,114300,D,D
+3614,New York,36,NY,14,NY-14,14,Joseph Crowley ,183690,123600,D,D
+3615,New York,36,NY,15,NY-15,15,Jos´Serrano ,105616,128600,D,D
+3616,New York,36,NY,16,NY-16,16,Eliot Engel ,140968,79800,D,D
+3617,New York,36,NY,17,NY-17,17,Nita Lowey ,84176,76700,D,D
+3618,New York,36,NY,18,NY-18,18,Sean Maloney ,106480,67300,D,R
+3619,New York,36,NY,19,NY-19,19,John Faso ,101385,65800,R,R
+3620,New York,36,NY,20,NY-20,20,Paul Tonko ,76106,63200,D,D
+3621,New York,36,NY,21,NY-21,21,Elise M. Stefanik ,83464,64400,R,R
+3622,New York,36,NY,22,NY-22,22,Claudia Tenney ,67539,63900,R,R
+3623,New York,36,NY,23,NY-23,23,Tom Reed ,79904,68300,R,R
+3624,New York,36,NY,24,NY-24,24,John Katko ,80026,65600,R,D
+3625,New York,36,NY,25,NY-25,25,Louise Slaughter ,40398,65700,D,D
+3626,New York,36,NY,26,NY-26,26,Brian Higgins ,61268,64800,D,D
+3627,New York,36,NY,27,NY-27,27,Chris Collins ,124954,58000,R,R
+3701,North Carolina,37,NC,01,NC-01,01,G.K. Butterfield,25110,82900,D,D
+3702,North Carolina,37,NC,02,NC-02,02,George Holding,26218,75100,R,R
+3703,North Carolina,37,NC,03,NC-03,03,Walter Jones Jr.,28951,70400,R,R
+3704,North Carolina,37,NC,04,NC-04,04,David Price,29689,71300,D,D
+3705,North Carolina,37,NC,05,NC-05,05,Virginia Foxx,30059,80600,R,R
+3706,North Carolina,37,NC,06,NC-06,06,Mark Walker,29911,78600,R,R
+3707,North Carolina,37,NC,07,NC-07,07,David Rouzer,30649,81700,R,R
+3708,North Carolina,37,NC,08,NC-08,08,Richard Hudson,30206,72700,R,R
+3709,North Carolina,37,NC,09,NC-09,09,Robert Pittenger,40250,82300,R,R
+3710,North Carolina,37,NC,10,NC-10,10,Patrick McHenry,31019,78100,R,R
+3711,North Carolina,37,NC,11,NC-11,11,Mark Meadows,32643,76900,R,R
+3712,North Carolina,37,NC,12,NC-12,12,Alma Adams,37222,82400,D,D
+3713,North Carolina,37,NC,13,NC-13,13,Ted Budd,30797,77300,R,R
+3800,North Dakota,38,ND,AL,ND-AL,00,Kevin Cramer ,34100,33700,R,R
+3901,Ohio,39,OH,01,OH-01,01,Steve Chabot ,44853,43100,R,R
+3902,Ohio,39,OH,02,OH-02,02,Brad Wenstrup ,64128,41400,R,R
+3903,Ohio,39,OH,03,OH-03,03,Joyce Beatty ,34191,50900,D,D
+3904,Ohio,39,OH,04,OH-04,04,Jim Jordan ,43259,39900,R,R
+3905,Ohio,39,OH,05,OH-05,05,Bob Latta ,44860,37200,R,R
+3906,Ohio,39,OH,06,OH-06,06,Bill Johnson ,68522,40500,R,R
+3907,Ohio,39,OH,07,OH-07,07,Bob Gibbs ,41547,37900,R,R
+3908,Ohio,39,OH,08,OH-08,08,Warren Davidson ,48384,39500,R,R
+3909,Ohio,39,OH,09,OH-09,09,Marcy Kaptur ,60337,47000,D,D
+3910,Ohio,39,OH,10,OH-10,10,Mike Turner ,55499,40600,R,R
+3911,Ohio,39,OH,11,OH-11,11,Marcia Fudge ,43712,48200,D,D
+3912,Ohio,39,OH,12,OH-12,12,Pat Tiberi ,56787,39500,R,R
+3913,Ohio,39,OH,13,OH-13,13,Tim Ryan ,46930,42200,D,D
+3914,Ohio,39,OH,14,OH-14,14,David Joyce ,72910,34600,R,R
+3915,Ohio,39,OH,15,OH-15,15,Steve Stivers ,60979,39900,R,R
+3916,Ohio,39,OH,16,OH-16,16,Jim Renacci ,61439,31600,R,R
+4001,Oklahoma,40,OK,01,OK-01,01,Jim Bridenstine,21212,69400,R,R
+4002,Oklahoma,40,OK,02,OK-02,02,Markwayne Mullin,16939,75200,R,R
+4003,Oklahoma,40,OK,03,OK-03,03,Frank Lucas,18771,61100,R,R
+4004,Oklahoma,40,OK,04,OK-04,04,Tom Cole,19305,64900,R,R
+4005,Oklahoma,40,OK,05,OK-05,05,Steve Russell,23196,79100,R,R
+4101,Oregon,41,OR,01,OR-01,01,Suzanne Bonamici,92476,56400,D,D
+4102,Oregon,41,OR,02,OR-02,02,Greg Walden,125168,64300,R,R
+4103,Oregon,41,OR,03,OR-03,03,Earl Blumenauer,108809,64500,D,D
+4104,Oregon,41,OR,04,OR-04,04,Peter DeFazio,119519,57700,D,D
+4105,Oregon,41,OR,05,OR-05,05,Kurt Schrader,95656,56300,D,D
+4201,Pennsylvania,42,PA,01,PA-01,01,Bob Brady,87649,61100,D,D
+4202,Pennsylvania,42,PA,02,PA-02,02,Dwight Eans,67899,54300,D,D
+4203,Pennsylvania,42,PA,03,PA-03,03,Mike Kelly,44123,41400,R,R
+4204,Pennsylvania,42,PA,04,PA-04,04,Scott Perry,47919,42500,R,R
+4205,Pennsylvania,42,PA,05,PA-05,05,Glenn Thompson,50128,38900,R,R
+4206,Pennsylvania,42,PA,06,PA-06,06,Ryan Costello,37638,38400,R,D
+4207,Pennsylvania,42,PA,07,PA-07,07,Pat Meehan,71610,34900,R,D
+4208,Pennsylvania,42,PA,08,PA-08,08,Brian Fitzpatrick,51332,37800,R,R
+4209,Pennsylvania,42,PA,09,PA-09,09,Bill Shuster,62821,40900,R,R
+4210,Pennsylvania,42,PA,10,PA-10,10,Tom Marino,52637,39300,R,R
+4211,Pennsylvania,42,PA,11,PA-11,11,Lou Barletta,44700,40800,R,R
+4212,Pennsylvania,42,PA,12,PA-12,12,Keith Rothfus,57965,36800,R,R
+4213,Pennsylvania,42,PA,13,PA-13,13,Brendan Boyle,69303,47000,D,D
+4214,Pennsylvania,42,PA,14,PA-14,14,Michael Doyle,40412,44300,D,D
+4215,Pennsylvania,42,PA,15,PA-15,15,Charlie Dent,59458,42200,R,R
+4216,Pennsylvania,42,PA,16,PA-16,16,Lloyd Smucker,38413,44200,R,R
+4217,Pennsylvania,42,PA,17,PA-17,17,Matthew Cartwright,50617,42900,D,R
+4218,Pennsylvania,42,PA,18,PA-18,18,Tim Murphy,44798,37100,R,R
+4401,Rhode Island,44,RI,01,RI-01,01,David Cicilline ,41000,31700,D,D
+4402,Rhode Island,44,RI,02,RI-02,02,James Langevin ,41000,27700,D,D
+4501,South Carolina,45,SC,01,SC-01,01,Mark Sanford,26408,56600,R,R
+4502,South Carolina,45,SC,02,SC-02,02,Joe Wilson,20189,50600,R,R
+4503,South Carolina,45,SC,03,SC-03,03,Jeff Duncan,20432,58500,R,R
+4504,South Carolina,45,SC,04,SC-04,04,Trey Gowdy,25116,63900,R,R
+4505,South Carolina,45,SC,05,SC-05,05,Mick Mulvaney,21481,62000,R,R
+4506,South Carolina,45,SC,06,SC-06,06,Jim Clyburn,23177,71000,D,D
+4507,South Carolina,45,SC,07,SC-07,07,Tom Rice,28669,70000,R,R
+4600,South Dakota,46,SD,AL,SD-AL,00,Kristi Noem ,20992,63000,R,R
+4701,Tennessee,47,TN,01,TN-01,01,Phil Roe,17769,66900,R,R
+4702,Tennessee,47,TN,02,TN-02,02,John Duncan,18184,58300,R,R
+4703,Tennessee,47,TN,03,TN-03,03,Chuck Fleischmann,16801,62200,R,R
+4704,Tennessee,47,TN,04,TN-04,04,Scott DesJarlais,15833,63600,R,R
+4705,Tennessee,47,TN,05,TN-05,05,Jim Cooper,23231,68900,D,D
+4706,Tennessee,47,TN,06,TN-06,06,Diane Black,17146,63800,R,R
+4707,Tennessee,47,TN,07,TN-07,07,Marsha Blackburn,17077,57300,R,R
+4708,Tennessee,47,TN,08,TN-08,08,David Kustoff,16109,54600,R,R
+4709,Tennessee,47,TN,09,TN-09,09,Steve Cohen,18045,83300,D,D
+4801,Texas,48,TX,01,TX-01,01,Louis Gohmert,17598,63700,R,R
+4802,Texas,48,TX,02,TX-02,02,Ted Poe,26054,59800,R,R
+4803,Texas,48,TX,03,TX-03,03,Sam Johnson,28187,52000,R,R
+4804,Texas,48,TX,04,TX-04,04,John Ratcliffe,17445,62500,R,R
+4805,Texas,48,TX,05,TX-05,05,Jeb Hensarling,21178,70600,R,R
+4806,Texas,48,TX,06,TX-06,06,Joe Barton,23616,64900,R,R
+4807,Texas,48,TX,07,TX-07,07,John Culberson,26054,63900,R,D
+4808,Texas,48,TX,08,TX-08,08,Kevin Brady,20340,61800,R,R
+4809,Texas,48,TX,09,TX-09,09,Al Green,28187,87200,D,D
+4810,Texas,48,TX,10,TX-10,10,Michael McCaul,26282,61800,R,R
+4811,Texas,48,TX,11,TX-11,11,Mike Conaway,16684,58600,R,R
+4812,Texas,48,TX,12,TX-12,12,Kay Granger,24149,59600,R,R
+4813,Texas,48,TX,13,TX-13,13,Mac Thornberry,13560,57700,R,R
+4814,Texas,48,TX,14,TX-14,14,Randy Weber,18588,64500,R,R
+4815,Texas,48,TX,15,TX-15,15,Vincente Gonzålez,20569,102500,D,D
+4816,Texas,48,TX,16,TX-16,16,Beto O'Rourke,34967,80800,D,D
+4817,Texas,48,TX,17,TX-17,17,Bill Flores,17750,61900,R,R
+4818,Texas,48,TX,18,TX-18,18,Sheila Jackson,26054,89300,D,D
+4819,Texas,48,TX,19,TX-19,19,Jodey Arrington,14322,60400,R,R
+4820,Texas,48,TX,20,TX-20,20,Joaquin Castro,24073,77200,D,D
+4821,Texas,48,TX,21,TX-21,21,Lamar Smith,25902,54700,R,R
+4822,Texas,48,TX,22,TX-22,22,Pete Olson,30853,54800,R,R
+4823,Texas,48,TX,23,TX-23,23,Will Hurd,24226,74700,R,D
+4824,Texas,48,TX,24,TX-24,24,Kenny Marchant,25064,62300,R,R
+4825,Texas,48,TX,25,TX-25,25,Roger Williams,22854,50500,R,R
+4826,Texas,48,TX,26,TX-26,26,Michael Burgess,25825,55200,R,R
+4827,Texas,48,TX,27,TX-27,27,Blake Farenthold,17217,62700,R,R
+4828,Texas,48,TX,28,TX-28,28,Henry Cuellar,24683,91700,D,D
+4829,Texas,48,TX,29,TX-29,29,Gene Green,26054,107100,D,D
+4830,Texas,48,TX,30,TX-30,30,Eddie Bernice Johnson,24911,86300,D,D
+4831,Texas,48,TX,31,TX-31,31,John Carter,21026,52200,R,R
+4832,Texas,48,TX,32,TX-32,32,Pete Sessions,25140,65900,R,D
+4833,Texas,48,TX,33,TX-33,33,Marc Veasey,24835,107200,D,D
+4834,Texas,48,TX,34,TX-34,34,Filemon Vela Jr.,20797,96000,D,D
+4835,Texas,48,TX,35,TX-35,35,Lloyd Doggett,26511,89000,D,D
+4836,Texas,48,TX,36,TX-36,36,Brian Babin,20645,63200,R,R
+4901,Utah,49,UT,01,UT-01,01,Rob Bishop ,30653,47700,R,R
+4902,Utah,49,UT,02,UT-02,02,Chris Stewart ,35663,55600,R,R
+4903,Utah,49,UT,03,UT-03,03,Jason Chaffetz ,38041,51200,R,R
+4904,Utah,49,UT,04,UT-04,04,Mia Love ,35323,57900,R,R
+5000,Vermont,50,VT,AL,VT-AL,00,Peter Welch ,18444,48800,D,D
+5101,Virginia,51,VA,01,VA-01,01,Rob Wittman,23470,45600,R,R
+5102,Virginia,51,VA,02,VA-02,02,Scott Taylor,21363,45200,R,R
+5103,Virginia,51,VA,03,VA-03,03,Robert Scott,23616,55200,D,D
+5104,Virginia,51,VA,04,VA-04,04,Donald McEachin,20927,58200,D,D
+5105,Virginia,51,VA,05,VA-05,05,Thomas Garrett Jr.,25360,55700,R,R
+5106,Virginia,51,VA,06,VA-06,06,Bob Goodlatte,22526,56100,R,R
+5107,Virginia,51,VA,07,VA-07,07,Dave Brat,27685,49700,R,R
+5108,Virginia,51,VA,08,VA-08,08,Don Beyer,29647,45700,D,D
+5109,Virginia,51,VA,09,VA-09,09,Morgan Griffith,19183,62200,R,R
+5110,Virginia,51,VA,10,VA-10,10,Barbara Comstock,29138,45900,R,D
+5111,Virginia,51,VA,11,VA-11,11,Gerry Connolly,32263,45200,D,D
+5301,Washington State,53,WA,01,WA-01,01,Suzan DelBene ,84897,38600,D,D
+5302,Washington State,53,WA,02,WA-02,02,Rick Larsen ,54642,39200,D,D
+5303,Washington State,53,WA,03,WA-03,03,Jaime Herrera Buetler ,89824,42600,R,R
+5304,Washington State,53,WA,04,WA-04,04,Dan Newhouse ,82463,51500,R,R
+5305,Washington State,53,WA,05,WA-05,05,Cathy McMorris Rodgers ,84847,42000,R,R
+5306,Washington State,53,WA,06,WA-06,06,Derek Kilmer ,72913,38500,D,D
+5307,Washington State,53,WA,07,WA-07,07,Pramila Jayapal ,69730,38300,D,D
+5308,Washington State,53,WA,08,WA-08,08,Dave Reichert ,82060,41500,R,D
+5309,Washington State,53,WA,09,WA-09,09,Adam Smith ,69939,46700,D,D
+5310,Washington State,53,WA,10,WA-10,10,Dennis Heck ,43008,39100,D,D
+5401,West Virginia,54,WV,01,WV-01,01,David McKinley ,50962,39600,R,R
+5402,West Virginia,54,WV,02,WV-02,02,Alex Mooney ,63000,41200,R,R
+5403,West Virginia,54,WV,03,WV-03,03,Evan Jenkins ,79105,43700,R,R
+5501,Wisconsin,55,WI,01,WI-01,01,Paul Ryan ,18993,49600,R,R
+5502,Wisconsin,55,WI,02,WI-02,02,Mark Pocan ,17227,50900,D,D
+5503,Wisconsin,55,WI,03,WI-03,03,Ron Kind ,20908,50200,D,R
+5504,Wisconsin,55,WI,04,WI-04,04,Gwen Moore ,19803,73600,D,D
+5505,Wisconsin,55,WI,05,WI-05,05,Jim Sensenbrenner ,19067,42300,R,R
+5506,Wisconsin,55,WI,06,WI-06,06,Glenn Grothman ,19582,44600,R,R
+5507,Wisconsin,55,WI,07,WI-07,07,Sean Duffy ,26503,52100,R,R
+5508,Wisconsin,55,WI,08,WI-08,08,Mike Gallagher ,22969,49300,R,R
+5600,Wyoming,56,WY,AL,WY-AL,00,Liz Cheney ,17686,43700,R,R
