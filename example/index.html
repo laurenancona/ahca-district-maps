@@ -15,7 +15,7 @@
 		<!-- End Google Tag Manager -->
 
     <!-- jQuery -->
-    <script   src="http://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
 
     <!-- Mabpox GL -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
@@ -47,6 +47,41 @@
           color: #222;
           font-family: 'Open Sans', Arial, sans-serif;
         }
+        #info div {
+        /*  background: #434343;*/
+          background: rgba(67,67,67,0.9);
+          position: absolute;
+          padding: 20px 10px 5px 10px;
+        /*  width: 100%;*/
+          bottom: 0px;
+          z-index: 100;
+        }
+        .info-text {
+          position: absolute;
+          color: white;
+        /*  width: 100%;*/
+          z-index: 100;
+        /*  overflow-x: hidden;*/
+          margin-right: 120px;
+          font-size: 1.6em;
+        }
+        #info div p {
+          margin-top:10px;
+        /*  text-decoration: none;*/
+        }
+        .info a {
+        /*  color: red;*/
+          font-size: 0.9em;
+        /*  text-decoration: none;*/
+        }
+        .info-label {
+          font-size: .8em;
+          font-weight: bold;
+          color: #999;
+        }
+        .info-title {
+          font-size: 2em;
+        }
         .selector { display: inline-block; float: left; margin: 4px; }
 
     </style>
@@ -60,7 +95,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- Map Container -->
-<div id='map'></div>
+<div id='map'>
+  <!-- District info -->
+  <div id='info'></div>
+</div>
 
 <!-- INTERACTIVE MENU -->
 <div id='menu'>
@@ -77,6 +115,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </select>
   </div>
 </div>
+
+
 
 <!-- Load in some useful data about the states -->
 <script src='./states.js'></script>
@@ -171,7 +211,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
 
     // Add zoom and rotation controls to the map
     var nav = new mapboxgl.NavigationControl();
-    map.addControl(nav,'bottom-left');
+    map.addControl(nav,'top-right');
 
     map.addControl(new mapboxgl.AttributionControl({
         compact: true
@@ -342,9 +382,18 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         // number (00 for at-large districts). title_long and title_short
         // have strings useful for display (e.g. "VA 8" and "Virginia’s 8th
         // Congressional District", respectively).
-        alert("That's " + district.state + "-" + district.number); // + ", i.e." + district.title_long + ".");
+        console.log("That's " + district.state + "-" + district.number);
+        console.log(parseInt(district.Total_Coverage_Loss_2026).toLocaleString());
 
-      } 
+          var coverage = district.Total_Coverage_Loss_2026.toLocaleString();
+
+          info.innerHTML = '<div class="info-text"><p class="info-title">' + district.State + ' District ' + district.CD115FP + '</p>' +
+            '<p><span class="info-label">Under AHCA, people losing coverage by 2026:</span><br>' +
+            parseInt(district.Total_Coverage_Loss_2026).toLocaleString() + '</p>' +
+            '<p><span class="info-label">Representative: </span><br>' +
+            district.Representative + ' (' + district.Party + ')' + '</p>' +
+            '</div>';
+          }
     })
 
   });
