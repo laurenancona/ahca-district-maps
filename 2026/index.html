@@ -67,7 +67,7 @@
         /*  width: 100%;*/
           bottom: 0px;
           z-index: 100;
-          margin-bottom: 2em
+          margin-bottom: 1em
         }
         .info-text {
           position: absolute;
@@ -100,16 +100,25 @@
         .selector { display: inline-block; float: left; margin: 4px; }
         .left { left:15px; position:absolute }
         .right { right:15px; position:absolute }
+        .mapboxgl-ctrl-top-right { top: 3em!important }
         @media only screen and (max-width : 500px) {
           .info-title {
             font-size: 1.3em;
             line-height: 1.2em;
+          }
+          #menu { width: 90%;}
+          #info div {
+            margin-bottom: 2em
           }
           #info div p {
             margin: 10px 0px 5px 7px;
           }
           .info-text {
             font-size: 1em;
+          }
+          .mapboxgl-ctrl-bottom-right {
+            bottom: 3em!important;
+            z-index: 10000!important;
           }
         }
     </style>
@@ -133,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </div>
-<div id="dothings"><span class="left"><a href="#">Reset</a></span><span class="right"><a href="https://github.com/laurenancona/ahca-district-maps/blob/gh-pages/README.md">Info<a></span></div></div>'
+<div id="dothings"><span class="left"><a href="/">Reset</a></span><span class="right"><a href="https://github.com/laurenancona/ahca-district-maps/blob/gh-pages/README.md">Info<a></span></div></div>'
 
 <!-- INTERACTIVE MENU -->
 <div id='menu'>
@@ -245,8 +254,8 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
     var baseStyle = map.getStyle()
 
     map.addControl(new mapboxgl.AttributionControl({
-        compact: true
-    }));
+        compact: true,
+    }),'bottom-right');
 
     // Add geolocation ?
     map.addControl(new mapboxgl.GeolocateControl());
