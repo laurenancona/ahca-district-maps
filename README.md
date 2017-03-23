@@ -4,9 +4,11 @@ Using [data]([https://cdn.americanprogress.org/content/uploads/2017/03/21115208/
 
 Data was compiled from several sources: [Charles Gaba's ongoing efforts](http://acasignups.net/17/03/22/how-many-would-lose-coverage-clean-repeal-vs-trumpcare), [The Kaiser Family Foundation](http://kff.org/), [Brandon Smith's 2016 presidential elections by congressional district](https://github.com/BSmith114/presidential-vote-by-county/), and [The Center for American Progress](https://www.americanprogress.org/issues/healthcare/news/2017/03/21/428914/coverage-losses-aca-repeal-bill-congressional-districts-states/).
 
-This map leverages prior work ([below]()) deriving Congressional District polygons from the [US Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2016-nation-u-s-115th-congressional-district-national) by [Aaron Dennis](https://github.com/aaronpdennis/congress-maps) and [Joshua Tauberer](https://github.com/JoshData) for Sunlight Foundation.
+This map leverages prior work ([below](https://github.com/laurenancona/ahca-district-maps/blob/gh-pages/README.md#generating-congressional-districts-from-census-data)) deriving Congressional District polygons from the [US Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2016-nation-u-s-115th-congressional-district-national) by [Aaron Dennis](https://github.com/aaronpdennis/congress-maps) and [Joshua Tauberer](https://github.com/JoshData) for Sunlight Foundation.
 
+As a last-minute, one-woman effort to visualize the impact of the AHCA, there are MANY bugs. I'll be pushing fixes when possible.Feel free to [find me on Twitter](https://twitter.com/laurenancona), submit and issue, or even better, a pull request. I'm planning to rebuild a new MapboxGL "fork-n-go" app later this year, since the framework used in Parkadelphia needs to be refactored, anyway.
 
+---
 
 
 ### Generating Congressional Districts from Census Data
