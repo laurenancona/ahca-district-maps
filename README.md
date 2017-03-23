@@ -8,7 +8,7 @@ Data was compiled from several sources: [Charles Gaba's ongoing efforts](http://
 
 This map leverages prior work ([below](https://github.com/laurenancona/ahca-district-maps/blob/gh-pages/README.md#generating-congressional-districts-from-census-data)) deriving Congressional District polygons from the [US Census Bureau](https://catalog.data.gov/dataset/tiger-line-shapefile-2016-nation-u-s-115th-congressional-district-national) by [Aaron Dennis](https://github.com/aaronpdennis/congress-maps) and [Joshua Tauberer](https://github.com/JoshData) for Sunlight Foundation.
  		 
-As a last-minute, one-woman effort to visualize the impact of the AHCA, there are MANY bugs. I'll be pushing fixes when possible. Feel free to [find me on Twitter](https://twitter.com/laurenancona), [submit an issue](https://github.com/laurenancona/ahca-district-maps/issues), or even better, a pull request. I'm planning to rebuild a new MapboxGL "fork-n-go" app later this year, since the framework used in Parkadelphia needs to be refactored, anyway.
+As a last-minute, one-woman effort to visualize the impact of the AHCA, there are MANY bugs. I'll be pushing fixes when possible. Feel free to [find me on Twitter](https://twitter.com/laurenancona), [submit an issue](https://github.com/laurenancona/ahca-district-maps/issues), or even better, a pull request. I'm planning to rebuild a new MapboxGL "fork-n-go" app later this year, since the framework used in [Parkadelphia](https://parkadelphia.com) needs to be refactored, anyway.
 
 ---
 
