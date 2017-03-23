@@ -381,10 +381,24 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         // features that are currently shown on the map. So if you've filtered
         // the districts so only a state or a single district is showing, this
         // will restrict the query to those districts.
-        var features = map.queryRenderedFeatures(
+	  var features = map.queryRenderedFeatures(
           e.point,
           {
-            layers: ["districts_1", "districts_2", "districts_3", "districts_4", "districts_5"]
+            layers: [
+              "districts_1",
+              "districts_2",
+              "districts_3",
+              "districts_4",
+              "districts_5",
+              "districts_1_d_42475",
+              "districts_1_r_42475",
+              "districts_2_r_51400",
+              "districts_2_d_51400",
+              "districts_3_r_63900",
+              "districts_3_d_63900",
+              "districts_4_r_128600",
+              "districts_4_d_128600"
+            ]
           });
         if (features.length > 0)
           // The feature properties come from the original GeoJSON uploaded to Mapbox.
@@ -423,18 +437,17 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         // have strings useful for display (e.g. "VA 8" and "Virginia’s 8th
         // Congressional District", respectively).
         console.log("That's " + district.state + "-" + district.number);
-        console.log(parseInt(district.Total_Coverage_Loss_2026).toLocaleString());
+        console.log(parseInt(district.total_coverage_loss_2026).toLocaleString());
 
-          var coverage = district.Total_Coverage_Loss_2026.toLocaleString();
+          var coverage = district.total_coverage_loss_2026.toLocaleString();
 
-          info.innerHTML = '<div class="info-text"><p class="info-title">' + district.State + ' District ' + district.CD115FP + '</p>' +
+          info.innerHTML = '<div class="info-text"><p class="info-title">' + district.state + ' District ' + district.cd115fp + '</p>' +
             '<p><span class="info-label">Under AHCA, people losing coverage by 2026:</span><br>' +
-            parseInt(district.Total_Coverage_Loss_2026).toLocaleString() + '</p>' +
+            parseInt(district.total_coverage_loss_2026).toLocaleString() + '</p>' +
             '<p><span class="info-label">Representative: </span><br>' +
-            district.Representative + ' (' + district.Party + ')' + '</p>';
+            district.representative + ' (' + district.party + ')' + '</p>';
           }
     })
-
   });
 
 } else {
