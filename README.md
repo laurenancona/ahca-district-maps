@@ -1,6 +1,6 @@
 # Mapping AHCA Impact by US Congressional Districts
 
-![](https://cloud.githubusercontent.com/assets/2152151/24231979/1cf3a26a-0f5e-11e7-91b9-4dbcb1ba0256.png)
+[![](https://cloud.githubusercontent.com/assets/2152151/24231979/1cf3a26a-0f5e-11e7-91b9-4dbcb1ba0256.png)](http://laurenancona.com/ahca-district-maps/index.html)
 
 Using [data]([https://cdn.americanprogress.org/content/uploads/2017/03/21115208/Table-of-CBO-coverage-loss-by-congressional-district-in-all-states-final.xlsx) published yesterday by the [Center for American Progress](https://www.americanprogress.org), I wanted to see if I could quickly map the potential effects of passing the AHCA in the House tomorrow, by Congressional District, and including metadata about each representative and the way that district voted in the 2016 presidential election. This is a very rough, quickly-done pass as visualizing how many constituents would lose coverage in each district.
 
