@@ -18,8 +18,8 @@
     <script   src="http://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
 
     <!-- Mabpox GL -->
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.17.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.17.0/mapbox-gl.css' rel='stylesheet'>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet'>
 
     <!-- Mapbox.js (fallback) -->
     <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
@@ -159,7 +159,8 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
       container: 'map',
       style: styleURL,
       center: continental.center,
-      zoom: continental.zoom
+      zoom: continental.zoom,
+      attributionControl: false
   });
 
   // Once map is fully loaded...
@@ -169,7 +170,15 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
     var baseStyle = map.getStyle()
 
     // Add zoom and rotation controls to the map
-    map.addControl(new mapboxgl.Navigation({ position: 'bottom-left' }));
+    var nav = new mapboxgl.NavigationControl();
+    map.addControl(nav,'bottom-left');
+
+    map.addControl(new mapboxgl.AttributionControl({
+        compact: true
+    }));
+
+    // Add geolocation ?
+    map.addControl(new mapboxgl.GeolocateControl());
 
     // Disable using touch gestures for map rotation
     map.touchZoomRotate.disableRotation();
@@ -335,9 +344,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         // Congressional District", respectively).
         alert("That's " + district.state + "-" + district.number); // + ", i.e." + district.title_long + ".");
 
-      } else {
-        alert("You clicked on a location that is not within a U.S. congressional district.")
-      }
+      } 
     })
 
   });
