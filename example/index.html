@@ -209,10 +209,6 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
     // Retrieve the JSON styling object for the map
     var baseStyle = map.getStyle()
 
-    // Add zoom and rotation controls to the map
-    var nav = new mapboxgl.NavigationControl();
-    map.addControl(nav,'top-right');
-
     map.addControl(new mapboxgl.AttributionControl({
         compact: true
     }));
