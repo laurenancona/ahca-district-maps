@@ -47,6 +47,19 @@
           color: #222;
           font-family: 'Open Sans', Arial, sans-serif;
         }
+        #dothings {
+          position: absolute;
+          bottom: 0px;
+          background-color: #190101;
+          color: white;
+          font-size: .6em;
+          height: 2em;
+          padding-top: 1em;
+          width: 100%;
+          display: block;
+          z-index:10000;
+        }
+        #dothings a { color: white; }
         #info div {
         /*  background: #434343;*/
           background: rgba(67,67,67,0.9);
@@ -54,6 +67,7 @@
         /*  width: 100%;*/
           bottom: 0px;
           z-index: 100;
+          margin-bottom: 2em
         }
         .info-text {
           position: absolute;
@@ -73,7 +87,7 @@
         .info a {
         /*  color: red;*/
           font-size: 0.9em;
-        /*  text-decoration: none;*/
+          text-decoration: none!important;
         }
         .info-label {
           font-size: .8em;
@@ -84,6 +98,8 @@
           font-size: 2em;
         }
         .selector { display: inline-block; float: left; margin: 4px; }
+        .left { left:15px; position:absolute }
+        .right { right:15px; position:absolute }
         @media only screen and (max-width : 500px) {
           .info-title {
             font-size: 1.3em;
@@ -94,7 +110,6 @@
           }
           .info-text {
             font-size: 1em;
-
           }
         }
     </style>
@@ -114,9 +129,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="info-text">
       <p class="info-title">AHCA Impact: Loss of Coverage Through 2026</p>
       <p>Select or tap a district for more detail</p>
+
     </div>
   </div>
 </div>
+<div id="dothings"><span class="left"><a href="#">Reset</a></span><span class="right"><a href="https://github.com/laurenancona/ahca-district-maps/blob/gh-pages/README.md">Info<a></span></div></div>'
 
 <!-- INTERACTIVE MENU -->
 <div id='menu'>
@@ -405,8 +422,7 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
             '<p><span class="info-label">Under AHCA, people losing coverage by 2026:</span><br>' +
             parseInt(district.Total_Coverage_Loss_2026).toLocaleString() + '</p>' +
             '<p><span class="info-label">Representative: </span><br>' +
-            district.Representative + ' (' + district.Party + ')' + '</p>' +
-            '</div>';
+            district.Representative + ' (' + district.Party + ')' + '</p>';
           }
     })
 
