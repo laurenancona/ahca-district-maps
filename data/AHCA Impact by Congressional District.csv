@@ -1,4 +1,4 @@
-geoid,State,FIPS,USPS,District,State_District,District,Representative,Total_Projected_to_Lose_Coverage,Total_Coverage_Loss_2026,Party,2016_P_Result
+geoid,State,FIPS,USPS,District,State_District,District,Representative,Total_Projected_to_Lose_Coverage_ACA_Repeal,Total_Coverage_Loss_2026,Party,2016_P_Result
 0101,Alabama,01,AL,01,AL-01,01,Bradley Byrne,22611,67100,R,R
 0102,Alabama,01,AL,02,AL-02,02,Martha Roby,15952,62000,R,R
 0103,Alabama,01,AL,03,AL-03,03,Michael Rogers,16262,65000,R,R
