@@ -257,8 +257,8 @@ if (mapboxgl.supported({ failIfMajorPerformanceCaveat: true })) {
         compact: true,
     }),'bottom-right');
 
-    // Add geolocation ?
-    map.addControl(new mapboxgl.GeolocateControl());
+    // Add geolocation - kill for now 
+    // map.addControl(new mapboxgl.GeolocateControl());
 
     // Disable using touch gestures for map rotation
     map.touchZoomRotate.disableRotation();
